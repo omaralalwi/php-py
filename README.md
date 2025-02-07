@@ -4,11 +4,12 @@ Seamlessly enabling secure and efficient execution of Python scripts within PHP 
 ## 📌 Table of Contents
 
 - [📖 Overview](#-overview)
-- [✨ Features Summary](#-features-summary)
    - [🔧 ConfigManager](#-configmanager)
    - [📜 PhpPy](#-phppy)
    - [💻 CommandExecutor](#-commandexecutor)
+- [🚀 Installation](#installation-)
 - [🚀 Quick Start](#-quick-start)
+- [✨ Features Summary](#-features-summary)
 - [🛠 Framework Integration](#-framework-integration)
 - [📋 Changelog](#-changelog)
 - [🧪 Testing](#-testing)
@@ -24,29 +25,13 @@ The `PhpPy` package provides seamless integration between PHP and Python without
 
 ---
 
-## ✨ Features Summary
+## Installation 🛠️
 
-### 🔐 Secure Execution
-- **Path Validation** ✅ Ensures scripts are within allowed directories.
-- **Argument & Environment Validation** 🔍 Restricts unauthorized input.
-- **Timeout Control** ⏳ Prevents long-running scripts.
-- **Uses `proc_close` as an alternative to `shell_exec`**.
+You can install the package via Composer:
 
-### 🔧 Flexible Configuration
-- Centralized settings via `ConfigManager`.
-- Customizable execution parameters.
-
-### 📤 Output Handling
-- Supports JSON parsing.
-- Captures and reports script errors.
-
-### 🚨 Error Management
-- Detailed exception handling for debugging.
-- Standardized error reporting.
-
-### 🔌 Extensibility
-- Modular execution through `CommandExecutor`.
-- Customizable for advanced use cases.
+```bash
+composer require omaralalwi/php-py
+```
 
 ---
 
@@ -154,6 +139,33 @@ if (!empty($prompt)) {
     echo json_encode(['error' => 'No prompt provided']);
 }
 ```
+
+
+## ✨ Features Summary
+
+### 🔐 Secure Execution
+- **Path Validation** ✅ Ensures scripts are within allowed directories.
+- **Argument & Environment Validation** 🔍 Restricts unauthorized input.
+- **Timeout Control** ⏳ Prevents long-running scripts.
+- **Uses `proc_close` as an alternative to `shell_exec`**.
+
+### 🔧 Flexible Configuration
+- Centralized settings via `ConfigManager`.
+- Customizable execution parameters.
+
+### 📤 Output Handling
+- Supports JSON parsing.
+- Captures and reports script errors.
+
+### 🚨 Error Management
+- Detailed exception handling for debugging.
+- Standardized error reporting.
+
+### 🔌 Extensibility
+- Modular execution through `CommandExecutor`.
+- Customizable for advanced use cases.
+
+---
 
 ---
 
