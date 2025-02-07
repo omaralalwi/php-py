@@ -1,5 +1,5 @@
 # PhpPy - PHP Python 🚀🐍
-Seamlessly enabling secure and efficient execution of Python scripts within PHP applications.
+Seamlessly enabling secure and efficient execution of Python scripts within PHP applications without spread multiple applications and or setup  API.
 
 ## 📌 Table of Contents
 
