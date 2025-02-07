@@ -4,9 +4,7 @@ Seamlessly enabling secure and efficient execution of Python scripts within PHP 
 ## 📌 Table of Contents
 
 - [📖 Overview](#-overview)
-   - [🔧 ConfigManager](#-configmanager)
-   - [📜 PhpPy](#-phppy)
-   - [💻 CommandExecutor](#-commandexecutor)
+- [🔧 Requirements](#requirements)
 - [🚀 Installation](#installation-)
 - [🚀 Quick Start](#-quick-start)
 - [✨ Features Summary](#-features-summary)
@@ -25,9 +23,12 @@ The `PhpPy` package provides seamless integration between PHP and Python without
 
 ---
 
-**Requirements**:
+## Requirements
+
 - PHP 8.1+
 - [python3](https://www.python.org/) must be installed in server .
+
+---
 
 ## Installation 🛠️
 
