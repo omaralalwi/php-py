@@ -88,16 +88,17 @@ $configManager = new ConfigManager([
        'max_timeout' => 120,
 ]);
 
-$result = PhpPy::build()
-    ->setConfig($configManager)
-    ->loadScript('advanced_example.py')
-    ->withArguments([10, 20, 30])
-    ->withEnvironment(['FIRST_ENV_VAR' => 'some value', 'SECOND_ENV_VAR' => 'some value'])
-    ->timeout(30)
-    ->asJson()
-    ->run();
-
 try {
+
+    $result = PhpPy::build()
+        ->setConfig($configManager)
+        ->loadScript('advanced_example.py')
+        ->withArguments([10, 20, 30])
+        ->withEnvironment(['FIRST_ENV_VAR' => 'some value', 'SECOND_ENV_VAR' => 'some value'])
+        ->timeout(30)
+        ->asJson()
+        ->run();
+
     print_r(json_decode($result));
 } catch (Exception $e) {
     echo "Error: " . $e->getMessage();
