@@ -147,7 +147,7 @@ if (!empty($prompt)) {
 ```
 
 
-## ✨ Features Summary
+## ✨ Features
 
 ### 🔐 Secure Execution
 - **Path Validation** ✅ Ensures scripts are within allowed directories.
