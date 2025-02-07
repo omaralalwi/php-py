@@ -38,7 +38,7 @@ composer require omaralalwi/php-py
 ## 🚀 Quick Start
 
 1. 📂 Create a folder for scripts, e.g., `phpPyScripts` in your project root directory.
-2. 📝 Create a Python script file (`.py` extension) and write Python code. [See this script example](https://github.com/omaralalwi/php-py/example-scripts/sum_calculator.py).
+2. 📝 Create a Python script file (`.py` extension) and write Python code. [See this script examples](https://github.com/omaralalwi/php-py/tree/master/example-scripts).
 3. 🔧 make script file executable, `chmod +x script_file_path` .
 
 ### ⚡ Easy Usage
