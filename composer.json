@@ -1,0 +1,58 @@
+{
+    "name": "omaralalwi/php-py",
+    "description": "play with python in PHP applications",
+    "keywords": [
+        "php-py",
+        "python",
+        "python-php",
+        "php-pytho",
+        "php python integration",
+        "run python in php",
+        "omaralalwi",
+        "execute python from php",
+        "php shell execution",
+        "secure python execution",
+        "php python bridge",
+        "python subprocess in php",
+        "php exec python script"
+    ],
+    "homepage": "https://github.com/omaralalwi/php-py",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "omar alalwi",
+            "email": "omaralwi2010@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "version": "1.0.0",
+    "require": {
+        "php": "^8.1",
+        "omaralalwi/php-builders": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omaralalwi\\PhpPy\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omaralalwi\\PhpPy\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.7"
+    }
+}
