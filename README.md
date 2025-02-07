@@ -175,7 +175,7 @@ if (!empty($prompt)) {
 
 ## 🛠 Framework Integration
 
-### [Laravel php-py](https://github.com/omaralalwi/laravel-php-py)
+### [Laravel php-py](https://github.com/omaralalwi/laravel-py)
 
 ---
 
