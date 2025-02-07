@@ -25,6 +25,10 @@ The `PhpPy` package provides seamless integration between PHP and Python without
 
 ---
 
+**Requirements**:
+- PHP 8.1+
+- [python3](https://www.python.org/) must be installed in server .
+
 ## Installation 🛠️
 
 You can install the package via Composer:
