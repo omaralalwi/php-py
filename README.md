@@ -5,12 +5,10 @@ Seamlessly enabling secure and efficient execution of Python scripts within PHP 
 
 - [📖 Overview](#-overview)
 - [✨ Features Summary](#-features-summary)
-- [⚙️ Configuration](#-configuration)
    - [🔧 ConfigManager](#-configmanager)
    - [📜 PhpPy](#-phppy)
    - [💻 CommandExecutor](#-commandexecutor)
 - [🚀 Quick Start](#-quick-start)
-- [🔑 Core Components](#-core-components)
 - [🛠 Framework Integration](#-framework-integration)
 - [📋 Changelog](#-changelog)
 - [🧪 Testing](#-testing)
