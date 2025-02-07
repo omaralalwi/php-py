@@ -37,12 +37,14 @@ class ConfigManager
      */
     public function __construct(array $config = [])
     {
-        if (empty($config['scripts_directory'])) {
-            throw new InvalidArgumentException("Scripts directory is not configured.");
+        $directory = $config['scripts_directory'];
+
+        if (empty($directory)) {
+            throw new InvalidArgumentException("Scripts directory {$directory} is not configured.");
         }
 
-        if (!is_dir($config['scripts_directory'])) {
-            throw new InvalidArgumentException("Scripts directory is invalid or does not exist.");
+        if (!is_dir($directory)) {
+            throw new InvalidArgumentException("Scripts directory {$directory} is invalid or does not exist.");
         }
 
         if (empty($config['python_executable'])) {
