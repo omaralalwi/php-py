@@ -173,7 +173,6 @@ if (!empty($prompt)) {
 
 ---
 
----
 
 ## 🛠 Framework Integration
 
@@ -194,8 +193,6 @@ composer test
 OR
 ./vendor/bin/pest
 ```
-
-Test coverage is coming in future versions. 🚀
 
 ---
 
