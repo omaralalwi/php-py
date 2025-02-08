@@ -74,15 +74,15 @@ class PhpPy
         }
 
         if (!str_starts_with($realPath, $allowedDirReal . DIRECTORY_SEPARATOR)) {
-            throw new InvalidArgumentException("Script path is not within the allowed directory.");
+            throw new InvalidArgumentException("Script path {$realPath} is not within the allowed directory.");
         }
 
         if (!is_file($realPath)) {
-            throw new InvalidArgumentException("Script path is not a file.");
+            throw new InvalidArgumentException("Script path {$realPath} is not a file.");
         }
 
         if (!is_readable($realPath)) {
-            throw new InvalidArgumentException("Script file is not readable.");
+            throw new InvalidArgumentException("Script file {$realPath} is not readable.");
         }
 
         if (pathinfo($realPath, PATHINFO_EXTENSION) !== 'py') {
