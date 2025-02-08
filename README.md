@@ -1,6 +1,11 @@
 # PhpPy - PHP Python 🚀🐍
 Seamlessly enabling secure and efficient execution of Python scripts within PHP applications without spread multiple applications and or setup  API.
 
+
+### 🛠 [Laravel py package](https://github.com/omaralalwi/laravel-py)
+
+---
+
 ## 📌 Table of Contents
 
 - [📖 Overview](#-overview)
@@ -170,13 +175,6 @@ if (!empty($prompt)) {
 ### 🔌 Extensibility
 - Modular execution through `CommandExecutor`.
 - Customizable for advanced use cases.
-
----
-
-
-## 🛠 Framework Integration
-
-### [Laravel php-py](https://github.com/omaralalwi/laravel-py)
 
 ---
 
