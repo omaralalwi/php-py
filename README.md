@@ -12,7 +12,7 @@ Seamlessly enabling secure and efficient execution of Python scripts within PHP 
 - [🔧 Requirements](#requirements)
 - [🚀 Installation](#installation-)
 - [🚀 Quick Start](#-quick-start)
-- [✨ Features Summary](#-features-summary)
+- [✨ Features](#-features)
 - [🛠 Framework Integration](#-framework-integration)
 - [📋 Changelog](#-changelog)
 - [🧪 Testing](#-testing)
