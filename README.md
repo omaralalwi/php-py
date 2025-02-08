@@ -179,6 +179,11 @@ if (!empty($prompt)) {
 
 ---
 
+### Important Note: 
+❌ Never pass user-controlled input directly script, just pass scripts that you will need as a administrator (Just from Your side) .
+
+---
+
 ## 📋 Changelog
 
 See detailed release notes in [CHANGELOG.md](CHANGELOG.md) 📜
