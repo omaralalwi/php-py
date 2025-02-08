@@ -1,6 +1,6 @@
 #!/bin/bash
-# this shell script just for tests
 
+# this shell script just for tests
 # Check if at least one argument is provided
 if [ $# -eq 0 ]; then
     echo '{"error": "At least one numeric argument is required."}'
